@@ -1,0 +1,86 @@
+/* BASIC RSETS */
+* {
+  margin: 0;
+  pad: 0;
+  box-sizing: border-box;
+}
+
+/* STYLING HEADER SECTION */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f55a5a;
+  padding: 1rem;
+  font-family: Inter;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+  width: 100%;
+  max-width: 600px;
+}
+
+.header-nav h1 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* STYLING ENTRY SECTION */
+.entry {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  font-family: Inter;
+}
+
+.entry-image {
+  width: 125px;
+  height: 168px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.entry-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  font-size: 0.6rem;
+  margin-top: 10px;
+}
+
+.location .marker-icon {
+  width: 0.5rem;
+}
+
+.location .maps-location {
+  color: rgb(94, 92, 92);
+}
+h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 0.6rem;
+  color: rgb(51, 50, 50);
+}
+
+.description {
+  font-size: 0.8rem;
+  color: rgb(51, 50, 50);
+  line-height: 1rem;
+}
